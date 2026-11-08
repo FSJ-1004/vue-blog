@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://example.com/archive</loc><priority>0.7</priority></url>
+  <url><loc>https://example.com/tags</loc><priority>0.6</priority></url>
+  <url><loc>https://example.com/about</loc><priority>0.6</priority></url>
+  <url><loc>https://example.com/post/vite-dev-server</loc><lastmod>2026-11-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://example.com/post/vue3-reactivity</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
+  <url><loc>https://example.com/post/markdown-blog-impl</loc><lastmod>2026-10-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://example.com/post/http-cache</loc><lastmod>2026-09-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://example.com/post/css-responsive-layout</loc><lastmod>2026-08-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://example.com/post/git-workflow</loc><lastmod>2026-07-15</lastmod><priority>0.8</priority></url>
+</urlset>

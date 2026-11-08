@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>范帅杰 · 技术笔记</title>
+    <link>https://example.com</link>
+    <description>记录 Vue、Vite、浏览器原理与前端工程化的学习过程，全部内容开源在 GitHub。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 08 Nov 2026 06:59:02 GMT</lastBuildDate>
+    <atom:link href="https://example.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vite 为什么比 Webpack 启动快：从 ESM 和按需编译说起</title>
+      <link>https://example.com/post/vite-dev-server</link>
+      <guid isPermaLink="true">https://example.com/post/vite-dev-server</guid>
+      <description>打包式构建 vs 基于原生 ESM 的按需加载，从一次「改一行代码等 8 秒」的体验出发，把 Vite 的启动原理讲清楚。</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>手写一遍 Vue 3 响应式：Proxy、依赖收集与触发更新</title>
+      <link>https://example.com/post/vue3-reactivity</link>
+      <guid isPermaLink="true">https://example.com/post/vue3-reactivity</guid>
+      <description>不读源码，先用两百行代码跑通 reactive / effect / computed 三条主线，理解「数据变了视图为什么跟着变」。</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>不装 CMS，怎么用 Vue 加 Markdown 搭一个博客</title>
+      <link>https://example.com/post/markdown-blog-impl</link>
+      <guid isPermaLink="true">https://example.com/post/markdown-blog-impl</guid>
+      <description>这个站点本身是怎么跑起来的：import.meta.glob 读文件、自己解析 frontmatter、按需渲染、构建期生成 RSS。</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>浏览器缓存到底怎么配：强缓存、协商缓存与一次真实的线上事故</title>
+      <link>https://example.com/post/http-cache</link>
+      <guid isPermaLink="true">https://example.com/post/http-cache</guid>
+      <description>从「用户更新了版本却还看到旧页面」出发，把 Cache-Control、ETag、Last-Modified 讲明白，并给出前后端都能用的落地配置。</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>先写 375px：一套不返工的响应式布局流程</title>
+      <link>https://example.com/post/css-responsive-layout</link>
+      <guid isPermaLink="true">https://example.com/post/css-responsive-layout</guid>
+      <description>从窄屏起步而不是从桌面往回压，配合 grid、min-width: 0 和断点选择，把移动端适配做在前面而不是事后打补丁。</description>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>实习生也能写好的 Git 提交：从 commit message 到分支模型</title>
+      <link>https://example.com/post/git-workflow</link>
+      <guid isPermaLink="true">https://example.com/post/git-workflow</guid>
+      <description>面试官会翻你的 GitHub。一个提交信息混乱的仓库，比一个功能简单的仓库更容易被扣分。这里是最小可用的规范。</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
